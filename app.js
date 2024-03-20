@@ -10,5 +10,5 @@ const fullname = 'Sam Martin';
 fullname = 'Will Johnson';
 
 console.log(firstname);
-console.log(lasname);
+console.log(lastname);
 console.log(fullname);
