@@ -1,12 +1,7 @@
-var friend = {
-    name: 'Sam',
-    age: '29',
-    address: {
-        address1: '6 claret ash court',
-        city: 'helena alley',
-        state: 'WA'
-    }
-};
+var sum = add(221, 287);
+var sum = add(1, 2);
+console.log(sum);
 
-
-console.log(friend.address.state) 
+function add(num1, num2) {
+    return num1 + num2; 
+}
