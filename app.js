@@ -1,22 +1,12 @@
-var firstname = "Sam";
-let lastname = 'Martin';
-
-firstname = 'Will';
-lastname = 'Johnson';
-
-const fullname = 'Sam Martin';
-
-var firstname = "Sam";
-var age = 25; 
-var isMale = true; 
-var isFemale = false;
-var surname = null;
-var person = {
-    name: firstname, 
-    age: age
+var friend = {
+    name: 'Sam',
+    age: '29',
+    address: {
+        address1: '6 claret ash court',
+        city: 'helena alley',
+        state: 'WA'
+    }
 };
-person.age; 
 
-var friends = ['Luke', 'Trent', 'Bryan'];
 
-console.log(friends[1]);
+console.log(friend.address.state) 
